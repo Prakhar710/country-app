@@ -1,0 +1,16 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 1.1rem;
+}
+
+li {
+    font-size: 0.85rem;
+    margin-bottom: 0.35em;
+}
+
+
+

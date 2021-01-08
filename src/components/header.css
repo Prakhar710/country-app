@@ -1,0 +1,39 @@
+.header{
+    box-shadow: 0 0 8px #858585;
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width:91.5%;
+    padding: 1.5em 0;
+}
+
+.inner-header > h1{
+    font-size: 1.475rem;
+    letter-spacing: 0.2px;
+}
+
+.header-right{
+    display: flex;
+    
+}
+
+.header-right > button > svg{
+    margin-right: 10px;
+    padding-top: 4px;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .inner-header > h1 {
+        font-size: 0.85rem;
+        letter-spacing: 0.2px;
+    }
+    .header-right > button >svg{
+        font-size: 0.78rem;
+    }
+   
+}

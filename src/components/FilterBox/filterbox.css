@@ -1,0 +1,15 @@
+.filterbox > select{
+    width: 16.5em;
+    height: 3.75em;
+    margin-bottom: 3.5em;
+}
+
+.filterbox >select{
+    padding-left: 1.5em;
+    
+    border-radius: 6px;
+    font-family: "Nunito Sans",sans-serif;
+    border: none;
+    
+    font-size: 0.9rem;
+}

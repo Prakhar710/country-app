@@ -1,0 +1,28 @@
+.searchbox{
+    position: relative;
+    margin-bottom: 2.5em;
+    width: 37.5%;
+}
+
+.searchbox > input{
+    padding-left: 5em;
+    padding: 1.25em 2em 1.25em 6.2em;
+    border-radius: 6px;
+    font-family: "Nunito Sans",sans-serif;
+    border: none;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .searchbox{
+        position: relative;
+        margin-bottom: 2.5em;
+        
+    }
+    .searchbox > input{
+        width: 130%;
+    }   
+}

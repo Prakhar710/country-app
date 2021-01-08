@@ -1,0 +1,27 @@
+.countrycard{
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card_img{
+    width: 100%; 
+    min-height: 10em;
+    height: 12em;
+    object-fit: cover;
+}
+.card_items{
+    list-style-type: none;
+    padding: 1.5em;
+    padding-bottom: 1.5em;
+}
+.card_label {
+    margin-top: -0.3em;
+    margin-bottom: 0.9em;
+}
+li span {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.link_card{
+    text-decoration: none;
+    color: rgb(71, 67, 67);
+}
